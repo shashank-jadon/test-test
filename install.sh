@@ -16,8 +16,4 @@ cd /home
 wget https://securedownloads.cpanel.net/latest
 sh latest 
 sleep 5
-while screen -list | grep cpanelinstall
-do
-    sleep 10
-done
 echo "Script Finished"
