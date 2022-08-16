@@ -17,3 +17,4 @@ wget https://securedownloads.cpanel.net/latest
 sh latest 
 sleep 5
 echo "Script Finished"
+pwd
