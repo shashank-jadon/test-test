@@ -14,7 +14,7 @@ su root
 sleep 5
 cd /home
 wget https://securedownloads.cpanel.net/latest
-screen -S cpanelinstall -L -d -m sh latest 
+sh latest 
 sleep 5
 while screen -list | grep cpanelinstall
 do
